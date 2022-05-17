@@ -29,10 +29,8 @@ class Board:
         s += '-' * ((2 * self.width) + 1)
         s += '\n'
         for n in range(self.width):
-                if n >= 10:
+            if n >= 10:
                 n %= 10
-            else:
-                n = n
             s += ' ' + str(n)
         
         return s

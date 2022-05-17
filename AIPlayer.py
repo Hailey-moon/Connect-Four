@@ -4,7 +4,7 @@
 #
 
 import random  
-from ps9pr3 import *
+from gamePlay import *
 
 class AIPlayer(Player):
     """ looks ahead some number of moves into the future to assess
@@ -75,7 +75,7 @@ class AIPlayer(Player):
                     scores[i] = 100
                 b.remove_checker(i)
         return scores
-    
+
     def next_move(self, b):
         """ returns the called AIPlayer‘s judgment of its best possible move.
         """

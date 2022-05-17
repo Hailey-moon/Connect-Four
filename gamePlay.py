@@ -3,8 +3,8 @@
 # Playing the game 
 #   
 
-from ps9pr1 import Board
-from ps9pr2 import Player
+from board import Board
+from player import Player
 import random
     
 def connect_four(p1, p2):

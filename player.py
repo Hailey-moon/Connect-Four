@@ -2,7 +2,7 @@
 # A Connect-Four Player class 
 #  
 
-from ps9pr1 import Board
+from board import Board
 
 # write your class below.
 
