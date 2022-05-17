@@ -11,9 +11,9 @@ def connect_four(p1, p2):
     """ Plays a game of Connect Four between the two specified players,
         and returns the Board object as it looks at the end of the game.
         inputs: p1 and p2 are objects representing Connect Four
-          players (objects of the class Player or a subclass of Player).
-          One player should use 'X' checkers and the other player should
-          use 'O' checkers.
+        players (objects of the class Player or a subclass of Player).
+        One player should use 'X' checkers and the other player should
+        use 'O' checkers.
     """
     # Make sure one player is 'X' and one player is 'O'.
     if p1.checker not in 'XO' or p2.checker not in 'XO' \
